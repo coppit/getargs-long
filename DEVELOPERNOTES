@@ -1,8 +1,13 @@
 This file is not distributed with the module. It outlines some notes for
 developers readying a set of files for distribution.
 
-CVS CHECKOUT:
-$ cvs -d/Users/coppit/CVSROOT co -d devel Getargs-Long/devel
+TODO:
+- When Google support svn dumpfile imports
+	(http://code.google.com/hosting/faq.html#importdump), do the following:
+	cd cvsbackup && cvs2svn --dumpfile=svndump --dump-only .
+
+Subversion CHECKOUT:
+$ svn co https://getargs-long.googlecode.com/svn/trunk/ Getargs-Long
 
 Checklist for a release:
 - Be sure to add new test cases for new features
@@ -36,8 +41,8 @@ Checklist for a release:
   $ ssh -t dcoppit@coppit.org 'cd www/coppit/source; vim code/index.raw; gmake'
 - Announce it to comp.lang.perl.announce
 - Copy current code to old in devel
-  $ rm -rf old; rsync -r --cvs-exclude * old
+  $ rm -rf old; rsync -r --cvs-exclude --exclude=.svn * old
 - Check in code:
-  $ cvs ci
+  $ svn commit
 - Tag the release for easy retrieval later
-  $ cvs tag "v5_20_0"
+  $ cvs cp https://getargs-long.googlecode.com/svn/trunk/ https://getargs-long.googlecode.com/svn/tags/v5.20.0
