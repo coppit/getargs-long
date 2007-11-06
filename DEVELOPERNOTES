@@ -3,8 +3,8 @@ developers readying a set of files for distribution.
 
 TODO:
 - When Google support svn dumpfile imports
-	(http://code.google.com/hosting/faq.html#importdump), do the following:
-	cd cvsbackup && cvs2svn --dumpfile=svndump --dump-only .
+	(http://code.google.com/hosting/faq.html#importdump), use the svndump file
+	to import the old repository.
 
 Subversion CHECKOUT:
 $ svn co https://getargs-long.googlecode.com/svn/trunk/ Getargs-Long
@@ -38,7 +38,7 @@ Checklist for a release:
 - Upload to server:
   $ scp Getargs-Long-X.XX.tar.gz dcoppit@coppit.org:www/coppit/html/code
 - Update webpage:
-  $ ssh -t dcoppit@coppit.org 'cd www/coppit/source; vim code/index.raw; gmake'
+  $ ssh dcoppit@coppit.org 'vi www/coppit/html/code/index.php'
 - Announce it to comp.lang.perl.announce
 - Copy current code to old in devel
   $ rm -rf old; rsync -r --cvs-exclude --exclude=.svn * old
