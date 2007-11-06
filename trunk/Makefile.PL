@@ -10,7 +10,7 @@ name              ('Getargs-Long');
 author            ('David Coppit <david@coppit.org>');
 abstract_from     ('lib/Getargs/Long.pm');
 version_from      ('lib/Getargs/Long.pm');
-license           ('gpl');
+license           ('perl');
 
 build_requires    (
                     'Test::More' => 0,

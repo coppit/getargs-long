@@ -9,8 +9,9 @@ common cases of all-mandatory and all-optional parameter lists.
 
 NEW IN THIS VERSION
 
-Version 1.1001: Mon Jun 6 2005
-- Fixed incorrect comments in Long.pm and test cases
+Version 1.1002: Tue Nov 6 2007
+- Dual-licensed the code under the GPL and Artistic licenses. (By the request
+	of Brandon Forehand.)
 
 
 MODULE DEPENDENCIES
@@ -96,8 +97,9 @@ license.
 
 LICENSE
 
-This code is distributed under the GNU General Public License (GPL).  See
-the file LICENSE included in the distribution.
+Copyright (c) 1995 Your Name. All rights reserved.  This program is free
+software; you can redistribute it and/or modify it under the same terms as
+Perl 5 itself.
 
 
 AUTHOR
