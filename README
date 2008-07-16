@@ -7,13 +7,6 @@ common cases of all-mandatory and all-optional parameter lists.
 
          *** This is alpha software -- use at your own risk ***
 
-NEW IN THIS VERSION
-
-Version 1.1002: Tue Nov 6 2007
-- Dual-licensed the code under the GPL and Artistic licenses. (By the request
-	of Brandon Forehand.)
-
-
 MODULE DEPENDENCIES
  
 To use this module, you will need to install:
