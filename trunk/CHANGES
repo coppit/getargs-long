@@ -1,3 +1,8 @@
+Version 1.1003: Tue Jul 15 2008
+- Updated to the latest version of Module::Install
+- Removed auto-install for better compatibility with CPAN and others
+- Moved hosting to Google Code
+
 Version 1.1002 : Tues Nov 6 2007
 - Dual-licensed the code under the GPL and Artistic licenses. (By the request
 	of Brandon Forehand <b4hand@users.sourceforge.net>.) Raphael Manfredi agreed

@@ -1,18 +1,13 @@
 This file is not distributed with the module. It outlines some notes for
 developers readying a set of files for distribution.
 
-TODO:
-- When Google support svn dumpfile imports
-	(http://code.google.com/hosting/faq.html#importdump), use the svndump file
-	to import the old repository.
-
 Subversion CHECKOUT:
 $ svn co https://getargs-long.googlecode.com/svn/trunk/ Getargs-Long
 
 Checklist for a release:
 - Be sure to add new test cases for new features
 - Make sure version number increases.
-- Add version changes to README and CHANGES, anonymizing the notes in the README.
+- Add version changes to CHANGES
 - Add new module dependencies to Makefile.PL, and update README
 - Update MANIFEST and MANIFEST.SKIP if necessary.
   $ make distcheck
@@ -24,21 +19,10 @@ Checklist for a release:
 - After the tests have passed, make the distribution file:
   $ make dist
 - Install the distribution file elsewhere to test it.
-  $ scp Getargs-Long-X.XX.tar.gz coppit@linux.sourceforge.net:.
-  $ ssh -l coppit linux.sourceforge.net
-  $ tar xvfz Getargs-Long-*.tar.gz
-  $ cd Getargs-Long-X.XX
-  $ perl Makefile.PL
-  $ make
-  $ make test
 - Upload to CPAN:
     http://pause.perl.org/pause/authenquery
   or
     cpan-upload Getargs-Long-X.XX.tar.gz
-- Upload to server:
-  $ scp Getargs-Long-X.XX.tar.gz dcoppit@coppit.org:www/coppit/html/code
-- Update webpage:
-  $ ssh dcoppit@coppit.org 'vi www/coppit/html/code/index.php'
 - Announce it to comp.lang.perl.announce
 - Copy current code to old in devel
   $ rm -rf old; rsync -r --cvs-exclude --exclude=.svn * old

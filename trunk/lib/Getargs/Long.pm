@@ -1,11 +1,12 @@
 # -*- Mode: perl -*-
 
 use strict;
+use 5.005;
 
 package Getargs::Long;
 
 use vars qw($VERSION @ISA @EXPORT);
-$VERSION = sprintf "%d.%02d%02d", q/1.10.2/ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%02d%02d", q/1.10.3/ =~ /(\d+)/g;
 
 BEGIN
 {
@@ -1072,13 +1073,22 @@ See L<Params::Validate> for another take at parameter validation.  It is
 a completely independant module, developped by Dave Rolsky, which may
 also interest you.  Its interface and purpose are different though.
 
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
+
 =head1 AUTHOR
 
-Raphael Manfredi F<E<lt>Raphael_Manfredi@pobox.comE<gt>>
+The original code (written before September 15, 2004) was written by 
+Raphael Manfredi E<lt>Raphael_Manfredi@pobox.comE<gt>.
+
+Maintenance of this module is now being done by David Coppit
+E<lt>david@coppit.orgE<gt>.
 
 =head1 SEE ALSO
 
-Log::Agent(3), Params::Validate(3)
+L<Log::Agent>, L<Params::Validate>
 
 =cut
 
