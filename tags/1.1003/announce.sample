@@ -1,0 +1,21 @@
+Getargs::Long 0.10 released
+
+Description:
+- A Perl module that allows usage of named parameters in function calls, along
+  with optional argument type-checking.  It provides an easy way to get at the
+  parameters within the routine, and yields concise descriptions for the
+  common cases of all-mandatory and all-optional parameter lists.
+
+Download:
+- You can download the module from CPAN:
+  http://www.cpan.org/authors/id/D/DC/DCOPPIT/Getargs-Long-0.10.tar.gz
+- Until the file propagates to the mirrors, you can use the following URL:
+  http://coppit.org/code/Getargs-Long-0.10.tar.gz
+
+Changes:
+- 
+
+See the README for additional notes.
+
+Regards,
+David
