@@ -14,8 +14,9 @@ To use this module, you will need to install:
 - Log::Agent
 - version::Limit
 
-You should be prompted to install this module automatically when you run "perl
-Makefile.PL".
+To test this module, you will need to install:
+
+- Test::More
 
 
 INSTALLATION
@@ -64,7 +65,11 @@ do "man Getargs::Long".
 
 HOMEPAGE
 
-Visit http://coppit.org/code/ for the latest version.
+The CPAN Page:
+http://search.cpan.org/dist/Getargs-Long/
+
+The Google Code page:
+http://code.google.com/p/getargs-long/
 
 
 KNOWN BUGS
@@ -78,7 +83,7 @@ NOT backward compatible.
 
 REPORTING BUGS
 
-Send email to David Coppit <david@coppit.org>. 
+http://code.google.com/p/getargs-long/issues/entry
 
 
 COPYRIGHT
@@ -90,9 +95,8 @@ license.
 
 LICENSE
 
-Copyright (c) 1995 Your Name. All rights reserved.  This program is free
-software; you can redistribute it and/or modify it under the same terms as
-Perl 5 itself.
+This program is free software; you can redistribute it and/or modify it under
+the same terms as Perl 5 itself.
 
 
 AUTHOR
