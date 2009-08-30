@@ -24,9 +24,7 @@ Checklist for a release:
   or
     cpan-upload Getargs-Long-X.XX.tar.gz
 - Announce it to comp.lang.perl.announce
-- Copy current code to old in devel
-  $ rm -rf old; rsync -r --cvs-exclude --exclude=.svn * old
 - Check in code:
   $ svn commit
 - Tag the release for easy retrieval later
-  $ cvs cp https://getargs-long.googlecode.com/svn/trunk/ https://getargs-long.googlecode.com/svn/tags/v5.20.0
+  $ svn cp https://getargs-long.googlecode.com/svn/trunk https://getargs-long.googlecode.com/svn/tags/1.1003
