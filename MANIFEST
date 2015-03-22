@@ -9,9 +9,10 @@ lib/Getargs/Long.pm
 # Tests
 t/cache.t
 t/case.t
+t/code.pl
 t/getargs.t
 t/nocache.t
-t/code.pl
+t/pod.t
 
 # Module::Install extensions
 inc/Module/Install.pm

@@ -1,8 +1,8 @@
 This file is not distributed with the module. It outlines some notes for
 developers readying a set of files for distribution.
 
-Subversion CHECKOUT:
-$ svn co https://getargs-long.googlecode.com/svn/trunk/ Getargs-Long
+git checkout:
+$ git clone https://github.com/coppit/getargs-long.git
 
 Checklist for a release:
 - Be sure to add new test cases for new features
@@ -23,8 +23,7 @@ Checklist for a release:
     http://pause.perl.org/pause/authenquery
   or
     cpan-upload Getargs-Long-X.XX.tar.gz
-- Announce it to comp.lang.perl.announce
-- Check in code:
-  $ svn commit
 - Tag the release for easy retrieval later
-  $ svn cp https://getargs-long.googlecode.com/svn/trunk https://getargs-long.googlecode.com/svn/tags/1.1003
+  $ git tag -a v1.1004 -m 'Version 1.1004'
+- Push changes to github:
+  $ git push

@@ -68,8 +68,8 @@ HOMEPAGE
 The CPAN Page:
 http://search.cpan.org/dist/Getargs-Long/
 
-The Google Code page:
-http://code.google.com/p/getargs-long/
+The GitHub page:
+https://github.com/coppit/getargs-long/
 
 
 KNOWN BUGS
@@ -83,13 +83,13 @@ NOT backward compatible.
 
 REPORTING BUGS
 
-http://code.google.com/p/getargs-long/issues/entry
+https://github.com/coppit/getargs-long/issues
 
 
 COPYRIGHT
 
 Copyright (c) Mar 2 2001-Mar 20 2001 Raphael Manfredi. Copyright (c) Mar 20
-2001-2004 David Coppit. All rights reserved, save those granted by the
+2001-2015 David Coppit. All rights reserved, save those granted by the
 license.
 
 

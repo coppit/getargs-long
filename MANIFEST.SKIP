@@ -3,6 +3,8 @@
 \bCVS\b
 ,v$
 \B\.svn\b
+\B\.git\b
+^\.gitignore$
 
 # Makemaker generated files and dirs.
 ^MANIFEST\.
@@ -27,3 +29,4 @@
 ^old/
 \.tar\.gz$
 t/temp/
+^MYMETA.(json|yml)

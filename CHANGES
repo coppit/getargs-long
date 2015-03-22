@@ -1,6 +1,8 @@
-Version 1.1004:
+Version 1.1004: Sun Mar 22 2015
+- Moved code to github
+- Added POD test
 - Fixed goofy licensing. (Thanks to Colin Watson <cjwatson@debian.org> for the
-	heads up.)
+  heads up.)
 
 Version 1.1003: Tue Jul 15 2008
 - Updated to the latest version of Module::Install
@@ -9,8 +11,8 @@ Version 1.1003: Tue Jul 15 2008
 
 Version 1.1002 : Tues Nov 6 2007
 - Dual-licensed the code under the GPL and Artistic licenses. (By the request
-	of Brandon Forehand <b4hand@users.sourceforge.net>.) Raphael Manfredi agreed
-	over email to changing the license on his code.
+  of Brandon Forehand <b4hand@users.sourceforge.net>.) Raphael Manfredi agreed
+  over email to changing the license on his code.
 
 Version 1.1001 : Mon Jun 6 2005
 - Fixed incorrect comments in Long.pm and test cases
