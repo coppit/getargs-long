@@ -1,3 +1,8 @@
+Version 1.1005: Mon Mar 23 2015
+- Minor update to developer notes
+- Re-uploading. 1.1004 didn't work due to some permissions issues that have
+  been resolved.
+
 Version 1.1004: Sun Mar 22 2015
 - Moved code to github
 - Added POD test

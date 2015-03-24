@@ -6,7 +6,7 @@ use 5.005;
 package Getargs::Long;
 
 use vars qw($VERSION @ISA @EXPORT);
-$VERSION = sprintf "%d.%02d%02d", q/1.10.4/ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%02d%02d", q/1.10.5/ =~ /(\d+)/g;
 
 BEGIN
 {
