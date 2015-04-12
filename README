@@ -63,7 +63,7 @@ Just "perldoc Getargs::Long". After installation on Unix systems, you can also
 do "man Getargs::Long".
 
 
-HOMEPAGE
+RESOURCES
 
 The CPAN Page:
 http://search.cpan.org/dist/Getargs-Long/
@@ -71,6 +71,8 @@ http://search.cpan.org/dist/Getargs-Long/
 The GitHub page:
 https://github.com/coppit/getargs-long/
 
+Bug and feature tracking:
+http://rt.cpan.org/Public/Dist/Display.html?Name=Getargs-Long
 
 KNOWN BUGS
 
@@ -79,11 +81,6 @@ version of perl: use 5.005_03, or try 5.6.1.
 
 The interface of this module changed between 0.1.2 and 0.1.3, and is
 NOT backward compatible. 
-
-
-REPORTING BUGS
-
-https://github.com/coppit/getargs-long/issues
 
 
 COPYRIGHT
