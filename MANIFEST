@@ -2,6 +2,7 @@ CHANGES
 MANIFEST
 Makefile.PL
 README
+LICENSE
 
 # The module files
 lib/Getargs/Long.pm

@@ -18,4 +18,7 @@ test_requires(
   'Test::More' => 0,
 );
 
+license 'perl';
+auto_license(holder => 'David Coppit');
+
 WriteAll();
