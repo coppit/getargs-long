@@ -1,5 +1,6 @@
 Version 1.1006:
 - Enable verbose testing for CPAN-testers
+- Consolidate issue tracking at rt.cpan.org
 
 Version 1.1005: Mon Mar 23 2015
 - Minor update to developer notes
