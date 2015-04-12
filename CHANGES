@@ -1,3 +1,6 @@
+Version 1.1006:
+- Enable verbose testing for CPAN-testers
+
 Version 1.1005: Mon Mar 23 2015
 - Minor update to developer notes
 - Re-uploading. 1.1004 didn't work due to some permissions issues that have

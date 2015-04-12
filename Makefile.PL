@@ -2,13 +2,17 @@
 
 use strict;
 use inc::Module::Install;
+use File::Slurp;
 
-die "This module is known to exercise a bug in 5.6.0. Please upgrade your perl.\n"
-  if $] eq '5.006';
+die "This module is known to exercise a bug in 5.6.0. Please upgrade your perl.\n" if $] eq '5.006';
 
 all_from('lib/Getargs/Long.pm');
 
 githubmeta;
+
+include(
+  'File::Slurp' => 0,
+);
 
 requires(
   'Log::Agent' => '0.105',
@@ -22,3 +26,9 @@ license 'perl';
 auto_license(holder => 'David Coppit');
 
 WriteAll();
+
+if (auto_tester) {
+  my $makefile = read_file('Makefile');
+  $makefile =~ s/TEST_VERBOSE\s*=\s*0/TEST_VERBOSE=1/ or die "Couldn't enable verbose mode in Makefile";
+  write_file('Makefile', $makefile);
+}
