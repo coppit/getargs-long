@@ -74,6 +74,7 @@ https://github.com/coppit/getargs-long/
 Bug and feature tracking:
 http://rt.cpan.org/Public/Dist/Display.html?Name=Getargs-Long
 
+
 KNOWN BUGS
 
 This module is known to exercise a bug in perl 5.6.0.  Don't use that
@@ -87,13 +88,7 @@ COPYRIGHT
 
 Copyright (c) Mar 2 2001-Mar 20 2001 Raphael Manfredi. Copyright (c) Mar 20
 2001-2015 David Coppit. All rights reserved, save those granted by the
-license.
-
-
-LICENSE
-
-This program is free software; you can redistribute it and/or modify it under
-the same terms as Perl 5 itself.
+license. See the file LICENSE for licensing terms.
 
 
 AUTHOR

@@ -1,4 +1,7 @@
-Version 1.1006:
+Version 1.1007:
+- Clarify licensing terms
+
+Version 1.1006: Sun Apr 12 2015
 - Enable verbose testing for CPAN-testers
 - Consolidate issue tracking at rt.cpan.org
 

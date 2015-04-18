@@ -1076,7 +1076,8 @@ also interest you.  Its interface and purpose are different though.
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself.
+the same terms as Perl itself. See the file LICENSE in the distribution for
+details.
 
 =head1 AUTHOR
 
