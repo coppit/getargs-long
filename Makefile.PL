@@ -25,6 +25,10 @@ test_requires(
 license 'perl';
 auto_license(holder => 'David Coppit');
 
+no_index 'directory' => 'private-lib';
+
 enable_verbose_cpan_testing();
+
+use_standard_tests;
 
 WriteAll();
