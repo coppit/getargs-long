@@ -15,6 +15,11 @@ all_from('lib/Getargs/Long.pm');
 auto_set_bugtracker;
 githubmeta;
 
+configure_requires(
+  # Module::Install::Bugtracker needs this
+  'URI::Escape' => 0,
+);
+
 requires(
   'Log::Agent' => '0.105',
 );
