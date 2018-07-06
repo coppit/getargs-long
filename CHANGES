@@ -1,3 +1,6 @@
+Version 1.1009:
+- Check in standard tests, including one that skips the compile check on Windows
+
 Version 1.1008:
 - Prevent CPAN from indexing private-lib
 - Add standard tests
