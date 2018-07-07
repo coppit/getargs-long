@@ -26,7 +26,9 @@ Checklist for a release:
     http://pause.perl.org/pause/authenquery
   or
     cpan-upload Getargs-Long-X.XX.tar.gz
+- Make sure there are no uncommitted changes:
+  git status
 - Tag the release for easy retrieval later
-  $ git tag -a v1.1004 -m 'Version 1.1004'
+  git tag -a v1.1004 -m 'Version 1.1004'
 - Push changes to github:
-  $ git push
+  git push
